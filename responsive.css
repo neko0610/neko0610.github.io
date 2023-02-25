@@ -1,0 +1,42 @@
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .container {
+        width: 100%;
+    }
+    .download-content {
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .info-img {
+        position: absolute;
+        top: 44% !important;
+        left: 20% !important;
+    }
+    .info-img img {
+        width: 300px !important;
+        height: 150px !important;
+    }
+    .login--user {
+        display: flex;
+        flex-direction: column;
+    }
+    .input--user {
+        padding: 23px 250px 21px 15px !important;
+    }
+    .contact ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .money--down {
+        display: flex;
+        flex-direction: column;
+    }
+    .section {
+        width: 100%;
+    }
+}
+

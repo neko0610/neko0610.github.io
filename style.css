@@ -3,73 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&family=Orbitron&family=Poppins:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&family=Open+Sans:wght@300&family=Orbitron&family=Poppins:wght@100&display=swap');
 @import url('https://fonts.cdnfonts.com/css/myriad-pro');
-
-/* @media (max-width: 1919px) {
-    .review, .info, .login, .download, .contact, .about {
-        width: 100%;
-    }
-    
-    .number, .play, .backgr4, .backgr5, .backgr6 {
-        width: 100%;
-    }
-}
-
-@media (max-width:1770px) {
-    .info-car {
-        width: 220%;
-    }
-}
-
-@media (max-width: 1460px) {
-    .download, .download--left, .download--right {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-}
-
-@media (max-width:840px) {
-    /* For ipad: */
-    /* .download, .backgr4, .info, .plays, .login, .backgr3, .info-car {
-      width: 100%;
-      padding: 0px 30px;
-    } */
-  /* } */
-
-/* @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    /* .section {
-      width: 100%;
-    } */
-/* } */
-
-@media (min-width: 576px) { 
-
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    .container {
-        width: 1175px;
-    }
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) { 
-    .container {
-        width: 1375px;
-    }
-}
+@import url('./variables.css');
 
 * {
     padding: 0;
@@ -82,17 +16,10 @@ html, body {
     width: 100%;
 }
 
-.container {
-    /* width: 1920px; */
-    padding-left: 30px;
-    padding-right: 30px;
+.container {   
+    padding: 0 30px;
     max-width: 100%;
     margin: 0 auto;
-}
-
-:root {
-    --primary-font: 'Orbitron';
-    --secondary-font: 'Poppins';
 }
 
 header {
@@ -206,6 +133,7 @@ header {
     text-align: center;
     padding: 50px 20px 30px;
     position: relative;
+    max-width: 100%;
 }
 
 .info h1 {
@@ -237,7 +165,7 @@ header {
     left: 20%;
 }
 .info-img img {
-    width: 800px;
+    width: 940px;
     height: 270px;
 }
 
@@ -322,7 +250,7 @@ header {
 
 .input--user {
     margin-top: 25px;
-    width: 40%;
+    width: 50%;
     padding: 23px 370px 21px 15px;
 }
 
@@ -348,9 +276,10 @@ header {
     align-items: center;
     font-family: var(--primary-font) ;
     font-size: 25px;
-    width: 50%;
     justify-content: end;
     color: #fff;
+    width: 50%;
+    padding-left: 50px;
 }
 
 .section p {
@@ -367,6 +296,7 @@ header {
     margin: auto;
     width: 730px;
     position: relative;
+    max-width: 100%;
 }
 
 .money h1 {
@@ -463,6 +393,7 @@ header {
     flex-direction: column;
     width: 700px;
     margin: auto;
+    max-width: 100%;
 }
 
 .contact h1 {
@@ -531,4 +462,5 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
